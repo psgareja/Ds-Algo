@@ -7,6 +7,7 @@ def unique(S,start,end):
         return False
     else:
         return S[start]!=S[stop-1]
-        
 
 
+
+#o(2^n)
